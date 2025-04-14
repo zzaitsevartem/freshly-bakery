@@ -1,0 +1,336 @@
+@media (max-width: 1200px) and (min-width: 1024px) {
+    .choose-blocks .block {
+        width: 32%;
+    }
+
+    .block img {
+        height: auto;
+        max-height: 300px;
+    }
+
+    .block-content h3 {
+        font-size: 20px;
+    }
+
+    .block-content p {
+        font-size: 12px;
+    }
+
+    .Visit-Us-Today img {
+        height: 350px;
+    }
+
+    .gallery-item img {
+        height: 250px;
+    }
+
+    .text-overlay {
+        top: 42%;
+        padding: 5px; 
+    }
+
+    .main-text {
+        font-size: 38px;
+        line-height: 1.1; 
+    }
+
+    .top-text, .bottom-text {
+        font-size: 13px;
+        margin-bottom: 5px; 
+        line-height: 1.2; 
+    }
+
+    .btn {
+        padding: 7px 40px;
+        font-size: 12px;
+        margin-top: 5px; 
+    }
+}
+
+@media (max-height: 1200px) and (max-width: 1024px) {
+    .header {
+        height: 80px;
+        padding: 0 20px;
+    }
+
+    .logo img {
+        max-height: 150px;
+        max-width: 200px;
+    }
+
+    .main-nav .nav-list {
+        gap: 20px;
+    }
+
+    .hero-section {
+        margin-top: 50px;
+        
+    }
+
+    .hero-image {
+        height: 400px;
+    }
+
+    .text-overlay {
+        top: 39%;
+        padding: 5px
+    }
+
+    .main-text {
+        font-size: 28px; 
+        line-height: 1.1
+    }
+
+    .top-text, .bottom-text {
+        font-size: 12px; 
+        margin-bottom: 5px; 
+        line-height: 1.2;
+    }
+
+    .btn {
+        padding: 7px 30px; 
+        margin-top: 5px; 
+        font-size: 11px;
+    }
+
+    .why-choose-us {
+        padding: 30px 10px;
+    }
+
+    .choose-blocks {
+        justify-content: space-around;
+        gap: 15px;
+        padding: 0 10px;
+    }
+
+    .block {
+        width: 45%;
+        margin-bottom: 20px;
+    }
+
+    .block img {
+        height: auto;
+        max-height: 300px;
+    }
+
+    .block-content h3 {
+        font-size: 20px;
+    }
+
+    .block-content p {
+        font-size: 12px;
+    }
+
+    .Visit-Us-Today {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 10px;
+    }
+
+    .left-today,
+    .right-today {
+        max-width: 100%;
+        min-height: auto;
+    }
+
+    .right-today {
+        margin-top: 20px;
+    }
+
+    .Visit-Us-Today img {
+        height: 200px;
+    }
+
+    .gallery-section {
+        padding: 15px 10px;
+    }
+
+    .gallery-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .gallery-item img {
+        height: 200px;
+    }
+}
+
+@media (max-width: 767px) {
+    .header {
+        height: 80px;
+        padding: 0 15px;
+    }
+
+    .logo img {
+        max-height: 150px;
+        max-width: 200px;
+    }
+
+    .main-nav .nav-list {
+        display: none;
+    }
+
+    .burger-menu {
+        display: block;
+    }
+
+    .nav-list.active {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        width: 100%;
+        background-color: rgb(247, 239, 229);
+        padding: 20px 0;
+        box-shadow: 0 10px 9px rgba(0, 0, 0, 0.2);
+        z-index: 100;
+    }
+
+    .nav-list.active li {
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    .header-right {
+        display: none;
+    }
+
+    .hero-section {
+        margin-top: 50px;
+    }
+
+    .text-overlay {
+        top: 40%;
+        padding: 5px;
+    }
+
+    .top-text {
+        font-size: 9px;
+        margin-bottom: 5px;
+        line-height: 1.2;
+    }
+
+    .main-text {
+        font-size: 22px;
+        line-height: 1.1;
+    }
+
+    .bottom-text {
+        font-size: 9px;
+        margin-top: 5px;
+        line-height: 1.2;
+    }
+
+    .btn {
+        padding: 6px 35px;
+        margin-top: 5px;
+        font-size: 9px;
+    }
+
+    .choose-blocks {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .block {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    .block img {
+        height: auto;
+        max-height: 250px;
+    }
+
+    .Visit-Us-Today {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .left-today,
+    .right-today {
+        max-width: 100%;
+        min-height: auto;
+    }
+
+    .right-today {
+        margin-top: 20px;
+    }
+
+    .Visit-Us-Today img {
+        height: 200px;
+    }
+
+    .gallery-section {
+        padding: 15px;
+    }
+
+    .gallery-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .gallery-item img {
+        height: 200px;
+    }
+}
+
+@media (max-width: 480px) {
+    .header {
+        height: 70px;
+        padding: 0 10px;
+    }
+
+    .logo img {
+        max-height: 120px;
+        max-width: 150px;
+    }
+
+    .main-text {
+        font-size: 28px;
+    }
+
+    .top-text, .bottom-text {
+        font-size: 8px;
+    }
+
+    .btn {
+        padding: 5px 25px;
+        font-size: 8px;
+    }
+
+    .why-choose-us h2 {
+        font-size: 28px;
+    }
+
+    .block-content h3 {
+        font-size: 20px;
+    }
+
+    .block-content p {
+        font-size: 12px;
+    }
+
+    .Visit-Us-Today h3 {
+        font-size: 28px;
+    }
+
+    .Visit-Us-Today h2 {
+        font-size: 20px;
+    }
+
+    .Visit-Us-Today p {
+        font-size: 14px;
+    }
+
+    .gallery-titles h2 {
+        font-size: 20px;
+    }
+
+    .gallery-item p {
+        font-size: 12px;
+    }
+
+    .block img {
+        max-height: 200px;
+    }
+}
